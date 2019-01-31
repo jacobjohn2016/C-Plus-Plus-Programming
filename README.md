@@ -13,4 +13,4 @@ Given a set of elements, design an Algorithm and write the subsequent C program 
 Given the value of 'n', write a recursive routine in C to print the first 'n' elements of the Fibonacci series. Fibonacci series is obtained by the sum of the preceding two terms in the series. The first two terms are 0 and 1.
 
 ## [Recursive reverse](https://github.com/jacobjohn2016/C-Plus-Plus-Programming/blob/master/string_reverse.cpp)
-Given a string, write a recursive routine to reverse it. For example, given the string 'and, the reversal of the string is 'dna'.
+Given a string, write a recursive routine to reverse it. For example, given the string 'and', the reversal of the string is 'dna'.
