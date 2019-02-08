@@ -18,26 +18,26 @@ Given a string, write a recursive routine to reverse it. For example, given the 
 ## [Arrange the tiles](https://github.com/jacobjohn2016/C-Plus-Plus-Programming/blob/master/arrange_the_tiles.cpp)
 In a tile game a n x n grid of tiles with numbers are given to the players. In each move then can pluck a tile in a particular square and fix it on some other square. Given the numbers written on the tiles in current configuration and the numbers written on the tiles in desired configuration, write a C++ program to determine the minimum number of moves to be made by the player to attain the desired configuration from the current configuration. For example, if the numbers on a 3X3 tile (read row wise) is 23, 12, 45, 67, 53, 11, 13, 90, 75 and the desired cofiguration is 11, 12, 13, 23, 45, 53, 67, 75, 90 then 6 moves are required.
 
-_Input format_
+*Input format*
 * First line contains the number of tiles, n x n
 * Next line contains the numbers written on the tiles in the current configuration separated by a space
 * Next line contains the numbers written on the tiles in the desired configuration separated by a space
 
-_Output format_
+*Output format*
 * Print the minimum number of moves to be made to reach desired configuration from initial configuration
 
-## [Stern-Brocot Sequence] 
-A sequence similar to fibanocci series. A sequence ‘a’ is built using the following rules:
-a<sub>0</sub> = 0
-a<sub>1</sub> = 1
-a<sub>2i</sub> = a<sub>i</sub>
-a<sub>2i+1</sub> = a<sub>i</sub> + a<sub>i+1</sub>
+## [Stern-Brocot Sequence]()
+A sequence similar to fibanocci series. A sequence ‘a’ is built using the following rules:<br/>
+_a<sub>0</sub> = 0_<br/>
+_a<sub>1</sub> = 1_<br/>
+_a<sub>2i</sub> = a<sub>i</sub>_<br/>
+_a<sub>2i+1</sub> = a<sub>i</sub> + a<sub>i+1</sub>_<br/>
 
 For example, the sequence of numbers 1, 1, 2, 1, 3 is a Stern-Brocot Sequence and 1, 1, 2, 1, 3, 2, 3, 3, 4 is not a Stern-Brocot Sequence since the eigth element is not as per rule. Given ‘n’ numbers write a C++ code to find out if it can be a Stern-Brocot Sequence when taken in order.
 
-_Input Format_
+*Input Format*
 * First line contains the number of elements, n
 * Next line contains the elements separated by a space
 
-_Output Format_
+*Output Format*
 * Print Yes if the elements form Stern-Brocot Sequence and print No and the index of the first element which violates the rule
