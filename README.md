@@ -27,7 +27,8 @@ In a tile game a n x n grid of tiles with numbers are given to the players. In e
 * Print the minimum number of moves to be made to reach desired configuration from initial configuration
 
 ## Stern-Brocot Sequence
-[Array Implmentation](https://github.com/jacobjohn2016/C-Plus-Plus-Programming/blob/master/stern-brocot-array.cpp) [Vector Implementation](https://github.com/jacobjohn2016/C-Plus-Plus-Programming/blob/master/stern-brocot-vector.cpp)
+[Array Implmentation](https://github.com/jacobjohn2016/C-Plus-Plus-Programming/blob/master/stern-brocot-array.cpp)<br/>
+[Vector Implementation](https://github.com/jacobjohn2016/C-Plus-Plus-Programming/blob/master/stern-brocot-vector.cpp)<br/>
 A sequence similar to fibanocci series. A sequence ‘a’ is built using the following rules:<br/>
 _a<sub>0</sub> = 0_<br/>
 _a<sub>1</sub> = 1_<br/>
