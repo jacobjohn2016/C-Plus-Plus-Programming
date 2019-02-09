@@ -47,7 +47,7 @@ For example, the sequence of numbers 1, 1, 2, 1, 3 is a Stern-Brocot Sequence an
 ## [Numbers of Connections in mesh topology](https://github.com/jacobjohn2016/C-Plus-Plus-Programming/blob/master/mesh.cpp)
 In a mesh topology, every computer is connected to every other computers in the network. Cost of connecting adajcent computers (c<sub>1</sub>) is less when compared to connecting non-adjacent computers (c<sub>2</sub>). Given the number of nodes in the network cost of connecting adjacent nodes and cost of connecting non-adjacent nodes, write a C++ code to compute the total cost involved in forming the mesh topology.
 
-For example, if the number of nodes in the network is 5 and c1 is 7 and c2 is 8 then the total cost is 75.
+For example, if the number of nodes in the network is 5 and c<sub>1</sub> is 7 and c<sub>2</sub> is 8 then the total cost is 75.
 
 **Input Format**
 * First line contains the number of nodes in the network, n
