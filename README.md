@@ -56,3 +56,12 @@ For example, if the number of nodes in the network is 5 and c<sub>1</sub> is 7 a
 
 **Output Format**
 * Print the total cost incurred in building the mesh topology for the network
+
+## [Roman Numerials]()
+A teacher wants to give an assignment on Roman numberals. But she is afraid that the students may get the answer from internet. Therefore she customizes the roman numerals with changes in the rule of formation. Romans represented numbers using the numerals I, V, X, L, C, D, and M.
+
+**Input Format**
+First line contains the roman numeral string, s
+
+**Output Format**
+Print the arabic equivalent of s
