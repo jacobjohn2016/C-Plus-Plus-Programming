@@ -54,7 +54,7 @@ For example, if the number of nodes in the network is 5 and c<sub>1</sub> is 7 a
 * Next line contains the cost of connecting adjacent computer, c<sub>1</sub>
 * Next line contains the cost of connecting non-adjacent computer, c<sub>2</sub>
 
-**Output Format**
+**Output Format*
 * Print the total cost incurred in building the mesh topology for the network
 
 
