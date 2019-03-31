@@ -25,8 +25,29 @@ class Line{
         int *ptr;
 };
 
-Line::Line(int len){
+Line::~Line(void){
+    cout << "Destructor is called" << endl;
+    delete ptr;
+}
 
+Line::Line(int len){
+    cout << "Constructor is called" << endl;
+    ptr = new int;
+    *ptr = len;
+}
+
+Line::Line(const Line &obj){
+    cout << "Copy constructor is called" << endl;
+    ptr = new int;
+    *ptr = *obj.ptr;
+}
+
+int Line::getLength(){
+   return *ptr; 
+}
+
+void display(Line obj){
+    cout << "length is = " << obj.getLength() << endl;
 }
 
 //main function
