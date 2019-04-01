@@ -14,5 +14,12 @@ int main(){
     Numbers *num;
     num = new Numbers;
     (*num).i = 10;
+    cout << num->i << endl;
+
+    Numbers num2;
+    num2.i = 20;
+    *num = num2;
     cout << (*num).i << endl;
+    
+    delete num;
 }
