@@ -2,7 +2,8 @@
 using namespace std;
 
 class Box{
-    double width;
+    private:
+        double width;
 
     public:
         double length;

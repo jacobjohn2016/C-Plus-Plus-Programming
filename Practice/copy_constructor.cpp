@@ -11,24 +11,19 @@
  * 
 */
 
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 class Line{
-    public: 
-        int getLength(void);
-        Line(int len);                  //simple constructor
-        Line(const Line &obj);          //copy constructor
-        ~Line();                        //destructor
-
     private:
+        int length;
+    public:
         int *ptr;
+        Line(int len);
+        Line(const Line &obj);
+        ~Line();
+        void getWidth();
 };
-
-Line::~Line(void){
-    cout << "Destructor is called" << endl;
-    delete ptr;
-}
 
 Line::Line(int len){
     cout << "Constructor is called" << endl;
@@ -42,20 +37,20 @@ Line::Line(const Line &obj){
     *ptr = *obj.ptr;
 }
 
-int Line::getLength(){
-   return *ptr; 
+void Line::getWidth(){
+    cout << "Width is = " << *ptr << endl;
 }
 
-void display(Line obj){
-    cout << "length is = " << obj.getLength() << endl;
+Line::~Line(){
+    cout << "Calling destructor" << endl;
 }
 
-//main function
 int main(){
     Line line(10);
-    Line line2 = line; //this always calls the copy constructor
-    display(line);
-    display(line2);
+    Line line2 = line;
+    line2.getWidth();
 
     return 0;
 }
+
+
