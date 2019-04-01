@@ -7,7 +7,7 @@ class Box{
 
     public:
         double length;
-        friend void printWidth(Box box);
+        friend void printWidth(Box& box);
         void setWidth(double wid);
 };
 
@@ -16,7 +16,7 @@ void Box::setWidth(double wid){
 }
 
 //Note: printWidth() is not a member function of any class
-void printWidth(Box box){
+void printWidth(Box& box){
     /* Because printWidth is a friend of class Box, it can
        directly access any member of this class */
     cout << "Width is = " << box.width << endl;
