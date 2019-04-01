@@ -9,6 +9,7 @@ class Numbers{
 int main(){
     int *arr;
     arr = new int[10];
+    arr[0] = 1;
     delete [] arr;
 
     Numbers *num;
