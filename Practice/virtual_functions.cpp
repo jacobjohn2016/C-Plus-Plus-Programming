@@ -31,7 +31,7 @@ int main(void){
     bptr = &d;
 
     //virtual function, binded at runtime
-    bptr->print();
+    (*bptr).print();
 
     // Non-virtual function, binded at compile time
     bptr->show();
